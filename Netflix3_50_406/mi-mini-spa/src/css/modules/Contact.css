@@ -1,0 +1,62 @@
+/* Contact.css */
+
+.contact-container {
+  background-color: #00bcd4;
+  padding: 3rem 1.5rem; /* Aumentado el padding para más espacio */
+  min-height: 100vh;
+}
+
+.contact-container h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px; /* Ajustado a un tamaño más amplio */
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 1rem; /* Aumentado padding para más comodidad */
+  margin-bottom: 1.5rem; /* Mejor separación entre campos */
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem; /* Tamaño de texto ajustado para más legibilidad */
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.2rem; /* Tamaño de fuente en el botón */
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.875rem; /* Ajuste del tamaño del texto de los errores */
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
