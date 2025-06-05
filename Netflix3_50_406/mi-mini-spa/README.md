@@ -26,20 +26,23 @@
 
 1. **Clonar el repositorio**:
 
-   ```bash
-   https://github.com/EduardoBullon/NETFLIXCLONE.git
- cd NETFLIXCLONE.git
+git clone https://github.com/EduardoBullon/NETFLIXCLONE.git
 
-CD Netflix3_50_406
+2. **Accede ala ruta**:
 
-   ```
+- cd NETFLIXCLONE
+- cd Netflix3_50_406
+- cd mi-mini-spa
 
-2. **Instalar las dependencias**:
+3. **Instala las dependencias**:
 
-   Si usas **npm**:
+- npm install
 
-   ```bash
-   npm install
-   ```
+4. **Ejecutar la SPA**:
 
- ejecutas con npm run dev
+- npm run dev
+
+## Evidencia y Deploy
+![Captura de pantalla 2025-06-04 195943](https://github.com/user-attachments/assets/03a8b3e4-0b6c-42bc-afc6-021665cc0c77)
+
+- Deploy: https://netflixclone-two-plum.vercel.app/
